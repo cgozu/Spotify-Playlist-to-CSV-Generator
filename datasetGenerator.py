@@ -134,5 +134,5 @@ def generate_csv(playlist_ids, start_index=1):
     df.to_csv('data_clean.csv', index=False)
 
 # Ejemplo de uso
-playlist_ids = ['0uM2YdatpMMTB89C7Yudwk', '37i9dQZF1DXcBWIGoYBM5M', '6u4GaztHbiN51Et5rx6VmZ', '37i9dQZF1EQqA6klNdJvwx', '37i9dQZF1DX9C8KzGEUKV4', '37i9dQZF1DWSpF87bP6JSF', '3XffOiXW96Wb92yHL599q6', '37i9dQZF1EIdi2gB41AzQG']
-generate_csv(playlist_ids, start_index=29503)
+playlist_ids = []
+generate_csv(playlist_ids, start_index=1)
